@@ -1,11 +1,19 @@
-// Include Libraries
+// // ***************************** Include Libraries *************************************
 #include "Arduino.h"
 
+// ****************************************************************************************
+
 // Pin Definitions
+#define FINGERPRINTSCANNER_PIN_RX	10
+#define FINGERPRINTSCANNER_PIN_TX	11
 
-// Global variables and defines
 
-// Constructors
+// ***************************** Global variables and defines *****************************
+
+// ****************************************************************************************
+// ******************************** object initialization *********************************
+
+// ****************************************************************************************
 
 /* This code sets up the essentials for your circuit to work. It runs first every time your circuit is powered with electricity. */
 void setup() {
@@ -15,12 +23,15 @@ void setup() {
     while (!Serial) ; // wait for serial port to connect. Needed for native USB
     Serial.println("start");
     
-    //WaterFlow - setup
-    
+    // ******************************* FingerprintScanner - setup **************************
+
+    // *************************************************************************************
 }
 
 /* This code is the main logic of your circuit. It defines the interaction between the components you selected. After setup, it runs over and over again, in an eternal loop. */
 void loop() {
-    //WaterFlow - Test Code
+    // ******************************* FingerprintScanner - Test Code **********************
+   
+    // *************************************************************************************
     
 }
