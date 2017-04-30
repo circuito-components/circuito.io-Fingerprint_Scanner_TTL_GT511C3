@@ -10,7 +10,8 @@
 
 // =======================Pin Definitions - ONLY MODIFY PIN NUMBERS // =========
 
-
+#define FINGERPRINTSCANNER_PIN_RX	10
+#define FINGERPRINTSCANNER_PIN_TX	11
 // =======================Pin Definitions // ===================================
 
 
